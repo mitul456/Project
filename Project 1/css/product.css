@@ -1,0 +1,155 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* =========================================================== */
+
+
+.aboutnav{
+    background-color: #ccc;
+    display: flex;
+    justify-content: end;
+}
+.aboutnav ul{
+    list-style: none;
+    padding: 20px 50px;
+    margin: 0;
+}
+.aboutnav a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+.aboutnav span{
+    padding: 2px;
+    font-size: 15px;
+    color: white;
+}
+
+.aboutMain{
+    padding: 20px;
+}
+.aboutMain h3{
+    padding: 10px 0;
+}
+.aboutMain p{
+    margin: 0 3px;
+    line-height: 1.8;
+}
+
+.product-list-sm ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    padding: 50px;
+}
+.product-list-sm ul li{
+    background-color: #f36520;
+    margin-right: 30px;
+    border-radius: 5px;
+}
+.product-list-sm ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+.product-list-sm ul li a:hover{
+    background-color: red;
+    color: white;
+    border-radius: 9px;
+    border: none;
+}
+
+
+.product{
+    width: 100%;
+}
+.product ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.product li{
+    box-sizing: border-box;
+    border: 1px solid #ededed;
+    width: 23%;
+    margin-bottom: 2.5rem;
+    margin-right: 1.8888%;
+    list-style: none;
+}
+.product a{
+    position: relative;
+    display: block;
+    width: 100%;
+    padding-bottom: 100%;
+}
+.product a img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.product .p-title{
+    padding: 3px;
+    text-align: center;
+    font-size: .9375rem;
+    color: #2d2d2d;
+}
+.product .p-title h3{
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+.product .p-title h3 a{
+    color: #333333;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =============================================================== */
+
+.page ul{
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+    margin: 35px 0px;
+}
+.page a{
+    color: #1b1b1b;
+    font-size: 1rem;
+    display: block;
+    border: 1px solid #e1e1e1;
+    border-radius: 3px;
+    text-align: center;
+    margin-right: 6px;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+
+.clr a{
+    color: #ccc;
+}
+

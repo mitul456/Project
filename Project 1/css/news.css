@@ -1,0 +1,336 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+nav{
+    width: 100%;
+    backdrop-filter: blur(15px);
+    /* background-color: rgb(255, 255, 255); */
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: end;
+    padding: 0px 100px;
+    margin: 0;
+}
+nav li{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 2px;
+}
+nav ul li a:hover{
+    color: #f36420;
+    border-bottom: 2px solid #f36420;
+}
+nav li:first-child{
+    margin-right: auto;
+}
+.logohover:hover{
+    border: none;
+}
+.sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: 999;
+    box-shadow: 5px 5px 15px black;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    backdrop-filter: blur(15px);
+    display: none;
+    background-color: white;
+}
+.sidebar li{
+    width: 100%;
+}
+.sidebar a{
+    width: 100%;
+}
+
+.menubtn{
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+    .menubtn{
+        display: flex;
+    }
+    .hidenav{
+        display: none;
+    }
+    nav li:first-child{
+        margin-right: auto;
+        margin-left: -60px;
+    }
+    nav li{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+        margin-right: -80px;
+    }
+    .cross{
+        margin-left: 0px !important;
+    }
+  }
+/* =========================================================== */
+
+
+.aboutnav{
+    background-color: #ccc;
+    display: flex;
+    justify-content: end;
+}
+.aboutnav ul{
+    list-style: none;
+    padding: 20px 50px;
+    margin: 0;
+}
+.aboutnav a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+.aboutnav span{
+    padding: 2px;
+    font-size: 15px;
+    color: white;
+}
+
+.aboutMain{
+    padding: 20px;
+}
+.aboutMain h3{
+    padding: 10px 0;
+}
+.aboutMain p{
+    margin: 0 3px;
+    line-height: 1.8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =============================================================== */
+
+.page ul{
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+    margin: 35px 0px;
+}
+.page a{
+    color: #1b1b1b;
+    font-size: 1rem;
+    display: block;
+    border: 1px solid #e1e1e1;
+    border-radius: 3px;
+    text-align: center;
+    margin-right: 6px;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+
+.clr a{
+    color: #ccc;
+}
+
+/* ================================================================== */
+
+
+.newslist{
+    width: 100%;
+    padding: 60px 0px;
+}
+.newslist li{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 10px 0;
+    border-bottom: 1px dashed gray;
+    line-height: 2;
+    font-size: 13px;
+}
+
+.newslist a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+.newslist a:hover{
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =================================================== */
+
+.footer{
+    background-color: #333333;
+    margin: 0;
+}
+.footer ul{
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: space-between;
+    padding: 50px;
+    margin: 0;
+}
+.footer ul li{
+    display: block;
+    color: white;
+    width: 33.33%;
+    padding: 0 50px;
+}
+.footer ul li .footertitle{
+    border-bottom: 1px solid #413f3f;
+}
+.footer ul li .footertitle h5{
+    font-weight: bold;
+    border-left: 5px solid #f36420;
+    color: white;
+    padding: 0 10px;
+}
+.footer ul li .socialLogo{
+    padding: 40px 0;
+}
+.footer ul li .socialLogo li{
+    width: 45px;
+    padding: 10px;
+    height: 45px;
+    border-radius: 50%;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer ul li .socialLogo li a{
+    text-align: center;
+}
+.footer ul li .socialLogo li a i{
+    color: white;
+}
+
+.footer ul li p{
+    line-height: 1.5;
+}
+.footer ul li .fnav{
+    display: block;
+    padding: 0;
+}
+.footer ul li .fnav li{
+    padding: 0;
+}
+.footer ul li .fnav li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    line-height: 1.9;
+}
+.footer ul li .fnav li a:hover{
+    color: #f36420;
+}
+
+
+
+
+
+
+.footer .footersmall{
+    height: 50px;
+    padding: 10px;
+    width: 100%;
+    background-color: #242424;
+    margin: 0;
+}
+.footer .footersmall li{
+    width: 100%;
+
+}
+
+
+@media screen and (max-width: 600px) {
+
+
+    .footer ul {
+        display: block;
+        list-style: none;
+        width: 100%;
+        justify-content: space-between;
+        padding: 50px;
+        margin: 0;
+    }
+    .footer ul li {
+        display: block;
+        color: white;
+        width: 100%;
+        padding: 30px 10px;
+    }
+
+    .footer ul li .socialLogo {
+        padding: 40px 0;
+        display: flex;
+    }
+    .footer .footersmall{
+        height: 60px;
+    }
+    .footer .footersmall li{
+        margin: 0;
+        padding: 5px;
+    }
+    .footer .footersmall p{
+        color: white;
+        padding: 0;
+        margin: 0;
+    }
+    
+}

@@ -1,0 +1,54 @@
+
+.aboutnav{
+    background-color: #ccc;
+    display: flex;
+    justify-content: end;
+}
+.aboutnav ul{
+    list-style: none;
+    padding: 20px;
+}
+.aboutnav a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+.aboutnav span{
+    padding: 2px;
+    font-size: 15px;
+    color: white;
+}
+
+
+.sendbtn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+.sendbtn button{
+    width: 150px;
+    height: 45px;
+    border: none;
+    outline: 1px solid #f36420;
+    color: #f36420;
+    font-size: 18px;
+    border-radius: 4px;
+}
+.sendbtn button:hover{
+    background-color: #f36420;
+    color: white;
+}
+
+.coninfo{
+    padding: 3px !important;
+    margin-bottom: 0 !important;
+    color: #494949;
+}
+.coninfo a{
+    color: #494949;
+    text-decoration: none;
+}
+.coninfo a:hover{
+    color: red;
+}

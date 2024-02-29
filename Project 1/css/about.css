@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.aboutnav{
+    background-color: #ccc;
+    display: flex;
+    justify-content: end;
+}
+.aboutnav ul{
+    list-style: none;
+    padding: 20px;
+}
+.aboutnav a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+.aboutnav span{
+    padding: 2px;
+    font-size: 15px;
+    color: white;
+}
+
+.aboutMain{
+    padding: 70px;
+}
+.aboutMain h3{
+    padding: 6px 0;
+    margin-top: 10px;
+}
+.aboutMain p{
+    margin: 0 3px;
+    line-height: 1.8;
+}
+.aboutMain img{
+    padding: 10px 0;
+    width: 75%;
+}
+.aboutbanner, .aboutbanner img{
+    width: 100%;
+}
+
+
